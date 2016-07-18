@@ -2,7 +2,7 @@
  * Programa arvore de natal, faça um programa que receba um número inteiro n e imprima a seguinte
  * saída, sendo n o número de estrelas das últimas linha.
 */
-package q6;
+package q06;
 import java.util.Scanner;
 
 public class Questao6{

@@ -1,4 +1,4 @@
-package q1;
+package q01;
 /*
 * Crie um programa que receba dois número inteiros e retorne o maior dos dois números
 */

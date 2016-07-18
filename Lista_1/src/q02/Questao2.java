@@ -2,7 +2,7 @@
 * Crie um programa que receba dois número inteiros maiores do que zero e retorne o resultado do
 * maior número elevado pelo menor número (Ex: 2 e 4 deve retorna 42=16; 3 e 1 deve retorna 31=3).
 */
-package q2;
+package q02;
 import java.util.Scanner;
 import java.lang.Math.*;
 

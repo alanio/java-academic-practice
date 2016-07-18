@@ -2,7 +2,7 @@
  * Faça um programa que receba o nome e 3 notas de um aluno e ao final informe o nome do aluno e
  * se ele está aprovado, reprovado ou de prova final. 
 */
-package q7;
+package q07;
 import java.util.Scanner;
 
 public class Questao7{

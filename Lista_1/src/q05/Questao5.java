@@ -2,7 +2,7 @@
  * Um somatório é um operador matemático que nos permite representar facilmente a soma de um
  *	grande número de termos.
 */
-package q5;
+package q05;
 import java.util.Scanner;
 
 public class Questao5{

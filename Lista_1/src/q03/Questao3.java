@@ -3,7 +3,7 @@
 *  Sabendo disso, faça um programa que receba a massa e a altura de uma pessoa e informe a sua
 *  classificação de acordo com o IMC.
 */
-package q3;
+package q03;
 import java.util.Scanner;
 
 public class Questao3{

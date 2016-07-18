@@ -1,7 +1,7 @@
 /* O fatorial de um número é calculado como n !=1 x 2 x 3 x .. n (Ex: 4! = 1 x 2 x 3 x 4 = 24). Faça
 *  um programa que receba um número e informe o seu fatorial.
 */
-package q4;
+package q04;
 import java.util.Scanner;
 
 public class Questao4{

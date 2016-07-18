@@ -1,7 +1,7 @@
 /*
  * Faça um programa que receba um número e informa se o número é divisível por 7 ou não.
 */
-package q8;
+package q08;
 import java.util.Scanner;
 
 public class Questao8{

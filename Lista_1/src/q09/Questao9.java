@@ -2,7 +2,7 @@
  * Crie um programa que calcule a distância entre dois pontos em uma plano cartesiano orientado por
  * (X,Y). Como entrada, o programa deve receber os valores de X e Y de cada ponto.
 */
-package q9;
+package q09;
 import java.util.Scanner;
 import java.lang.Math.*;
 
