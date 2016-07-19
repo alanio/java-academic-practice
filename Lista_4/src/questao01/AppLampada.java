@@ -1,6 +1,6 @@
-package questao1;
+package questao01;
 
-public class App {
+public class AppLampada {
     public static void main(String[] args){
     	LampadaTresEstados lampada = new LampadaTresEstados();
     	

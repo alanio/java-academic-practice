@@ -1,7 +1,7 @@
-package questao1;
+package questao01;
 
 public class LampadaTresEstados {
-    String estado;
+    private String estado;
 
     LampadaTresEstados() {
         apagar();
@@ -19,7 +19,7 @@ public class LampadaTresEstados {
 		estado = "meia-luz";
 	}    
 
-	public String getEstado() {
-		return estado;
-	}
+    public String getEstado() {
+            return estado;
+    }
 }
