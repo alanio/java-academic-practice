@@ -5,15 +5,15 @@ import java.lang.Math;
 public class Hora02 {
 	private int hora, minuto;
 	
-	Hora02(){
+	public Hora02(){
 		this(0,0);
 	}
 	
-	Hora02(int hora){
+	public Hora02(int hora){
 		this(hora, 0);
 	}
 	
-	Hora02(int hora, int minuto){
+	public Hora02(int hora, int minuto){
 		this.alterar(hora, minuto);		
 	}
 

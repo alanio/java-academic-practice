@@ -3,15 +3,15 @@ package questao03;
 public class Hora {
 	private int hora, minuto;
 	
-	Hora(){
+	public Hora(){
 		this(0,0);
 	}
 	
-	Hora(int hora){
+	public Hora(int hora){
 		this(hora, 0);
 	}
 	
-	Hora(int hora, int minuto){
+	public Hora(int hora, int minuto){
 		this.alterar(hora, minuto);		
 	}
 

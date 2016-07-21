@@ -15,7 +15,7 @@ public class LampadaTresEstados {
     private String estado;
     private int luminosidade;
 
-    LampadaTresEstados() {
+    public LampadaTresEstados() {
         setLuminosidade(0);
     }
     

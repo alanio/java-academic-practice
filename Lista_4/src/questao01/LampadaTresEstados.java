@@ -3,7 +3,7 @@ package questao01;
 public class LampadaTresEstados {
     private String estado;
 
-    LampadaTresEstados() {
+    public LampadaTresEstados() {
         apagar();
     }
     

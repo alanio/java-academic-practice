@@ -5,22 +5,19 @@ import java.lang.Math;
 public class Hora03 {
 	private int hora, minuto;
 			
-	Hora03(String hora){		
-		this(
-			Integer.parseInt(hora.substring(0,2)), //hora
-			Integer.parseInt(hora.substring(3,5))  //minuto
-		);		
+	public Hora03(String hora){		
+		this(Integer.parseInt(hora.substring(0,2)), Integer.parseInt(hora.substring(3,5)));		
 	}		
 	
-	Hora03(){
+	public Hora03(){
 		this(0,0);
 	}
 	
-	Hora03(int hora){
+	public Hora03(int hora){
 		this(hora, 0);
 	}
 	
-	Hora03(int hora, int minuto){
+	public Hora03(int hora, int minuto){
 		this.alterar(hora, minuto);		
 	}
 
