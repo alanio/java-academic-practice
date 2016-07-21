@@ -1,9 +1,9 @@
 package questao08;
 
-public class AppFuncionario {
+public class AppFuncionario01 {
 	public static void main(String[] args) {
-		Funcionario f1 = new Funcionario();
-		Funcionario f2 = new Funcionario();
+		Funcionario01 f1 = new Funcionario01();
+		Funcionario01 f2 = new Funcionario01();
 		
 		f1.registrarPonto("10:00", "20:30");
 	

@@ -1,9 +1,9 @@
 package questao09;
 
-public class Ponto {
+public class Ponto02 {
 	private int chegada, saida;
 	
-	public Ponto(int chegada, int saida){
+	public Ponto02(int chegada, int saida){
 		this.chegada = chegada;
 		this.saida = saida;
 	}
