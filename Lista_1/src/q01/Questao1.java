@@ -24,6 +24,6 @@ public class Questao1{
 			System.out.print("Equal Numbers = " + a);
 		}
 		
-		System.out.printf("\n\n%.2f",3.5666);
+		//System.out.printf("\n\n%.2f",3.5666);
 	}
 }
