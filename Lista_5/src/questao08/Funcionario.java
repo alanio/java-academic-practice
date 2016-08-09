@@ -7,7 +7,7 @@ public class Funcionario {
     private static double ticket=100;
     
     public Funcionario(String matricula, double valorHoras, int horas) {
-        this.matricula = matricula;
+        this.setMatricula(matricula);
         this.valorHoras = valorHoras;
         this.horas = horas;
     }
@@ -18,5 +18,13 @@ public class Funcionario {
     
     public double salario(){
         return (valorHoras * horas) + ticket;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
     }
 }

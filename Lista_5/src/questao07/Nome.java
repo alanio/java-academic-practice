@@ -1,17 +1,17 @@
 package questao07;
 
 public class Nome {
-    public String getFirstName(String nome){
+    public static String getFirstName(String nome){
         String first = nome.substring(0,nome.indexOf(" "));
         return first;
     }
     
-    public String getLastName(String nome){
+    public static String getLastName(String nome){
         String last = nome.substring(nome.lastIndexOf(" ")+1,nome.length());        
         return last;
     }
     
-    public int numberOfLetters(String nome){
+    public static int numberOfLetters(String nome){
         int letters = 0;
         String string[] = nome.split(" ");
         for(String x: string){
@@ -20,7 +20,7 @@ public class Nome {
         return letters;
     }
     
-    public int numberOfNames(String nome){        
+    public static int numberOfNames(String nome){        
         String words[] = nome.split(" ");
         
         return words.length;
