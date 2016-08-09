@@ -9,7 +9,6 @@ public class App {
 		System.out.println(a2);
 		
 		System.out.println(a1.getMaiorMedia());
-		
-		//teste tab
+		   
     }
 }
