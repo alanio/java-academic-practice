@@ -8,16 +8,16 @@ public class Bolsista {
     private String termo;
     private String dataIngresso;
     private String curriculoLattes;
-    
+
     public Bolsista(int cpf, String nome, int telefone, String email,
             String termo, String dataIngresso, String curriculoLattes) {        
-        this.cpf = cpf;
-        this.nome = nome;
-        this.telefone = telefone;
-        this.email = email;
-        this.termo = termo;
-        this.dataIngresso = dataIngresso;
-        this.curriculoLattes = curriculoLattes;
+        setCpf(cpf);
+        setNome(nome);
+        setTelefone(telefone);
+        setEmail(email);
+        setTermo(termo);
+        setDataIngresso(dataIngresso);
+        setCurriculoLattes(curriculoLattes);
     }
 
     public int getCpf() {
