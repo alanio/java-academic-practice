@@ -6,6 +6,8 @@ public class Supervisor extends Bolsista{
     // Construtor da classe Supervisor com os parametros da super classe e o parametro especifico da classe (escola)
     public Supervisor(int cpf, String nome, int telefone, String email,
             String termo, String dataIngresso, String curriculoLattes, String escola) {
+        
+        // Passando os parametros de super classe do construtor Supervisor para a super classe        
         super(cpf, nome, telefone, email, termo, dataIngresso, curriculoLattes);
         
         // Passando o parametro especifico da classe para o construtor Supervisor        

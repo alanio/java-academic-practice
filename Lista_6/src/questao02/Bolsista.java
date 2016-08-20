@@ -9,6 +9,8 @@ public class Bolsista {
     private String dataIngresso;
     private String curriculoLattes;
 
+    
+    // Construtor padrao da classe Bolsista 
     public Bolsista(int cpf, String nome, int telefone, String email,
             String termo, String dataIngresso, String curriculoLattes) {        
         setCpf(cpf);
