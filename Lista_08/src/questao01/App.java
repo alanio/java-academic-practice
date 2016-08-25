@@ -5,6 +5,7 @@ public class App {
         double notas[] = new double[3];
         double media;
         int soma=0;
+        
         notas[0] = 7;
         notas[1] = 7;
         notas[2] = 7;
