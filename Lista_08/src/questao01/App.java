@@ -11,10 +11,11 @@ public class App {
         notas[2] = 7;
         
         for(int i=0; i < 3; i++){
-            soma += notas[i]; 
+            soma += notas[i];            
         }
         
         media = soma/3;
+              
         System.out.println(media);
     }
 }
