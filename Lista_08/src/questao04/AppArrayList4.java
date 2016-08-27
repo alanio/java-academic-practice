@@ -3,7 +3,7 @@ package questao04;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class AppArrayList {
+public class AppArrayList4 {
     private static Scanner read = new Scanner(System.in);
     
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class AppArrayList {
         int chapa0=0, chapa1=0, branco=0;
         
         for(int i=0; i<100; i++){
-            System.out.print("Nota "+(i+1) + ": ");
+            System.out.print("Voto "+(i+1) + ": ");
             voto.add(read.nextInt());
             
             if(voto.get(i) == -1)

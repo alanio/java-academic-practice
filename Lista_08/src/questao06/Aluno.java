@@ -1,12 +1,12 @@
 package questao06;
 
+import java.util.ArrayList;
+
 public class Aluno {
-    private double[] notas = new double[5];
-    private int i=0;
+    private ArrayList<Double>  notas = new ArrayList<Double>();
     
     public void adicionarNotas(double valor){
-        notas[i] = valor;
-        i++;
+        notas.add(valor);
     }
     
     public double calcularMedia(){
@@ -14,6 +14,6 @@ public class Aluno {
         for(double  n:notas){            
             soma += n;
         }
-        return soma/3;
+        return soma/notas.size();
     }
 }

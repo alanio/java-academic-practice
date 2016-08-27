@@ -7,13 +7,6 @@ public class AlunoMedio extends Aluno{
         super(nome, idade, matricula, media);
         setSerie(serie);
     }
-    
-    
-    public String resultado(){
-        if(getMedia()>=7) return "Aprovado";
-        if(getMedia()<5) return "Reprovado";
-        return "Prova Final";
-    }
 
     public int getSerie() {
         return serie;
