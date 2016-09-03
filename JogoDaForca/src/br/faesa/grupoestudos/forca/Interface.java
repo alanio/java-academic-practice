@@ -341,7 +341,7 @@ public class Interface extends JFrame implements ActionListener, ItemListener {
     
     //m�todo que atualiza o painel da Figura
     private void atualizaPainelFigura (String img) {
-        img = img.toUpperCase();
+        //img = img.toUpperCase();
         ImageIcon image  = new ImageIcon ("img//"+img);
         this.labelfigura.setIcon(image);
         this.atnivel.setText("Nível "+this.nivelAtual);
